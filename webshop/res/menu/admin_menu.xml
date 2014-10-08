@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+  
+    <item android:id="@+id/adminMain" android:title="@string/adminMain"/>
+    <item android:id="@+id/categoriesList" android:title="@string/categoriesList"/>
+    <item android:id="@+id/productsList" android:title="@string/productsList"/>
+    <item android:id="@+id/createCategory" android:title="@string/createCategory"/>
+    <item android:id="@+id/createProduct" android:title="@string/createProduct"/>
+    <item android:id="@+id/ordersList" android:title="@string/ordersList"/>
+    
+</menu>

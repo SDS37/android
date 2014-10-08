@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sds.webshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bear_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:background="#FFFFFF" >
+        <activity android:name="se.sds.activities.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="se.sds.activities.AdminLoginActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.UserLoginActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.AdminMainActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.UserMainActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.CategoriesListActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.ProductsListActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.ProductActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.CreateCategoryActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.CreateProductActivity" >
+        </activity>
+        <activity android:name="se.sds.activities.OrdersListsActivity" >
+        </activity>
+       
+        <service android:name="se.sds.services.NewOrderNotifierService"></service>
+        
+    </application>
+
+</manifest>

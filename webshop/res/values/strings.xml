@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Björns Webshop</string>
+    <string name="line">-----------------------------------------</string>
+    
+    <!-- Strings related to login -->
+	<string name="loginLegend">Login as:</string>
+    <string name="loginAdminPageTitle">Login as admin</string>
+    <string name="loginUserPageTitle">Login as user</string>
+    
+    <string name="loginSigningProgress">Signing in&#8230;</string>   
+    
+    <!-- Strings related to the Admin area -->
+    <string name="adminMain">Admin (root)</string>
+    
+    <!-- Strings related to Category -->
+    <string name="categoriesList">List of Categories</string>
+    <string name="createCategory">Create a category</string>
+    
+    <!-- Strings related to Product -->
+    <string name="productsList">List of Products</string>
+    <string name="createProduct">Create a Product</string>
+    <string name="categories">Categories</string>
+    
+    <string name="priceLegend">Price:</string>
+    <string name="rrpLegend">RRP:</string>
+    <string name="quantityInStockLegend">Quantity in stock:</string>
+    <string name="categoryLegend">CATEGORY:</string>
+    
+    <string name="shopProductPageTitle">Shop product</string>
+    
+    <string name="quantityLegend">Product: </string>
+    
+    <!-- Strings related to the Admin area -->
+    <string name="userMain">User (root)</string>
+    
+    <!-- Strings related to Order -->
+    <string name="ordersList">Orders</string>
+    <string name="ordersListPageTitle">Orders</string>
+    <string name="orderIdLegend">Order # (id) =</string>
+    <string name="orderUsernameLegend">Client username:</string>
+    <string name="orderUserAddressLegend">Address:</string>
+    <string name="orderProductNameLegend">Product shopped -</string>
+    <string name="orderProductQuantityLegend">Quantity shopped =</string>
+    <string name="orderProductSubtotalLegend">Subtotal = </string>
+    <string name="orderProductTotalLegend">TOTAL = </string>
+    
+    <!-- Hints -->
+    <string name="usernameHint">username</string>
+    <string name="passwordHint">password</string>
+    
+    <string name="nameHint">Name</string>
+    <string name="descriptionHint">Description</string>
+
+    <string name="priceHint">Price</string>
+    <string name="rrpHint">RRP</string>
+    <string name="quantityInStockHint">Quantity in stock</string>
+    
+    <string name="productQuantityHint">Quantity</string> 
+    
+	<!-- Buttons -->
+    <string name="submitLegend">SUBMIT</string>
+    <string name="loginAsAdminButtonLegend">Admin</string>
+    <string name="loginAsUserButtonLegend">User</string>
+    <string name="logoutButtonLegend">Logout</string>
+    <string name="addToCartLegend">add to cart</string>
+    <string name="submitOrderLegend">order</string>
+    
+    <!-- Strings related to errors -->
+    <string name="fieldRequiredError">Field required</string>
+    <string name="integerRequiredError">Number required</string>
+    
+    <!-- Content description -->
+    <string name="bear">Bear image</string>
+    
+</resources>
